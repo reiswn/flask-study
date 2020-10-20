@@ -1,0 +1,14 @@
+{{ page_var }}
+
+<h1>Hello Flask Render Template</h1>
+<br>
+{% if name %}
+  <h1>Hello {{ name }}!</h1>
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}
+<br>
+<br>
+{% for number in numbers_var %}
+{{ number }}
+{% endfor %}
