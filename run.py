@@ -1,3 +1,7 @@
+'''
+source /home/willian/projects/git-projects/flask-study/venv/bin/activate
+'''
+
 from flask import Flask, redirect, url_for
 from app.home import home
 
